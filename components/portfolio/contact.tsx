@@ -27,19 +27,19 @@ export function Contact() {
           </h2>
 
           <p className="text-muted-foreground leading-relaxed mb-8">
-            {`I'm currently open to new opportunities and collaborations. Whether you have a project in mind, a question, or just want to say hi — my inbox is always open.`}
+            {`I'm currently open to new opportunities and collaborations. Whether you have a project in mind, a question, or just want to say "Hi" -  my inbox is always open.`}
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="mailto:alex@example.com"
+              href="mailto:leksa.boiko@gmail.com"
               className="inline-flex items-center gap-2 px-6 py-3 bg-foreground text-background rounded-lg text-sm font-medium hover:opacity-90 transition-opacity"
             >
               <Mail size={16} />
               Say hello
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/oleksandra-boiko-b83b92146/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 border border-border text-foreground rounded-lg text-sm font-medium hover:bg-background transition-colors"

@@ -18,7 +18,7 @@ export function Hero() {
               <div className="relative w-14 h-14 rounded-full overflow-hidden ring-2 ring-border">
                 <Image
                     src="/images/avatar.jpg"
-                    alt="Alex Chen"
+                    alt="Oleksandra Boiko"
                     fill
                     className="object-cover"
                     priority

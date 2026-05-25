@@ -5,12 +5,13 @@ import { useInView } from "framer-motion"
 import { useRef } from "react"
 
 const skills = [
-  { category: "Core", items: ["JavaScript", "TypeScript", "React.js", "Next.js", "Redux.js", "HTML5", "CSS3", "WebComponents"] },
-  { category: "State & Forms", items: ["Redux Toolkit", "Formik", "Yup"] },
+  { category: "Core", items: ["JavaScript", "TypeScript", "React.js", "Next.js", "Redux.js", "Redux Toolkit", "HTML5", "CSS3", "WebComponents"] },
   { category: "UI & Styling", items: ["SCSS", "SASS", "LESS", "Styled-components", "TailwindCSS", "Material UI", "Ant Design", "Atomic design", "Storybook"] },
-  { category: "Testing", items: ["Jest", "React Testing Library", "Cypress", "Playwright", "Postman", "Percy"] },
+  { category: "Testing", items: ["Jest", "React Testing Library", "Cypress", "Playwright", "Percy", "Postman", "Screen Reader Testing" ] },
   { category: "Build & Tools", items: ["Webpack", "Parcel", "Gulp", "Vite", "Git", "GitHub", "GitLab", "CI/CD"] },
-  { category: "Monitoring & Performance", items: ["Datadog", "Lighthouse", "Core Web Vitals", "WCAG", "Screen Reader Testing", "Performance Optimization"] },
+  { category: "Monitoring & Performance", items: ["Datadog", "Lighthouse", "Core Web Vitals", "WCAG", "Performance Optimization"] },
+  { category: "AI-Driven Development", items: ["Cursor IDE", "GitHub Copilot", "ChatGPT", "Amazon Q", "Claude Code"] },
+  { category: "Languages", items: ["English (Upper-Intermediate)"] },
 ]
 
 export function About() {

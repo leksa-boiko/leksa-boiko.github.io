@@ -6,63 +6,60 @@ import { ArrowUpRight } from "lucide-react"
 
 const experiences = [
   {
-    period: "Jan 2022 — Present",
+    period: "Sep 2025 — Apr 2026",
     title: "Frontend Engineer",
     company: "Highload Solutions",
     url: "#",
     description:
-        "Designed and evolved custom frontend solutions, including a scalable CMS Builder, reusable npm packages with shared tools and feature modules, and internal services for centralized localization and translation management. " +
-        "Managed deployment workflows using Vercel, leveraging preview and production environments to support reliable releases, while monitoring performance and stability with Vercel Analytics.",
-    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
-    project: ["React", "Next.js", "TypeScript", "markDown"],
+        "Designed and implemented micro-frontend architecture using Web Components to enable scalable, independently deployable frontend modules." +
+        "Ensured WCAG-compliant accessibility by applying semantic markup, keyboard navigation support, best practices, and inclusive interaction patterns.",
+    technologies: ["Next.js", "TypeScript", "TailwindCSS", "Biulder.io", "S3 Bucket", "Jest", "React Testing Library", "Cypress", "REST APIs", "CRUD", "Datadog", "Postman", "Swagger", "Lighthouse", "Performance Optimization", "AI-Driven Development", "Amazon Q", "GitHub Copilot", "CI/CD"],
   },
   {
-    period: "Jan 2022 — Present",
+    period: "Apr 2025 — Aug 2025",
     title: "Frontend Engineer",
     company: "Patrianna",
     url: "https://www.patrianna.com/",
     description:
         "Designed and evolved custom frontend solutions, including a scalable CMS Builder, reusable npm packages with shared tools and feature modules, and internal services for centralized localization and translation management. " +
         "Managed deployment workflows using Vercel, leveraging preview and production environments to support reliable releases, while monitoring performance and stability with Vercel Analytics.",
-    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
-    project: ["React", "Next.js", "TypeScript", "markDown"],
+    technologies: ["Next.js", "TypeScript", "TailwindCSS", "Biulder.io", "S3 Bucket", "Jest", "React Testing Library", "Cypress", "REST APIs", "CRUD", "Postman", "Swagger", "Lighthouse", "Performance Optimization", "AI-Driven Development", "Cursor IDE", "CI/CD"],
   },
   {
-    period: "Jan 2022 — Present",
+    period: "May 2024 — Jan 2025",
     title: "Frontend Engineer",
     company: "Ciklum | Just Eat Takeaway.com",
     url: "https://ciklum.com.ua/",
     description:
       "Contributed to the development of PIE Design, an open-source, customizable UI component library designed for creating responsive and user-friendly interfaces. Explore component implementations in Storybook or review the source code in the monorepo on GitHub. Later transitioned to the 'Product Experience' team to develop a unified customer-facing frontend for Just Eat Takeaway.com, collaborating on multiple initiatives to elevate other teams' products to company standards.",
-    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
-    project: ["React", "Next.js", "TypeScript", "markDown"],
+    technologies: ["React.js", "Next.js", "Redux.js", "Redux Toolkit", "TypeScript", "SCSS", "Storybook", "Web Components", "Lit library", "Vite", "Turborepo", "Jest", "React Testing Library", "Playwright", "Percy", "Datadog", "REST APIs", "CRUD", "Postman", "Swagger", "Lighthouse", "Performance Optimization", "WCAG", "Screen Reader Testing", "Core Web Vitals"],
   },
   {
-    period: "Mar 2020 — Dec 2021",
+    period: "Aug 2019 — Feb 2024",
     title: "Frontend Engineer",
     company: "Yalantis | ViewTrade Holding Corp.",
     url: "https://yalantis.ua/",
     description:
       "Worked across multiple FinTech products, including electronic trading systems, digital onboarding, billing management, and client-facing platforms for international financial institutions, brokerages, and wealth management firms.",
-    technologies: ["React", "TypeScript", "CSS", "Storybook"],
+    technologies: ["React.js", "Redux.js", "Redux Toolkit", "TypeScript", "SCSS", "Styled-components", "Material-UI", "Atomic design", "Webpack", "Parcel", "Formik", "Yup", "Chart.js", "Jest", "React Testing Library", "Cypress",  "Sentry", "REST APIs", "CRUD", "GraphQL", "Postman", "Swagger", "Lighthouse", "Performance Optimization"],
   },
   {
-    period: "Jun 2018 — Feb 2020",
+    period: "Sep 2018 — Aug 2019",
     title: "Frontend Engineer",
     company: "Civenty",
     url: "https://coventit.com/",
     description:
       "Developed and scaled multiple country-specific lead generation websites with localized language support, using a shared architecture to enable fast deployment while adapting design for each market, which improved efficiency and conversion across regions.",
-    technologies: ["React", "JavaScript", "GraphQL", "Jest"],
+    technologies: ["JavaScript",  "HTML5", "CSS", "LESS", "REST APIs", "CRUD", "Swagger"],
   },
   {
-    period: "Aug 2016 — May 2018",
+    period: "Apr 2017 — Apr 2018",
     title: "Frontend Engineer",
     company: "Unique Technologies LLC",
     url: "https://uniquetechnologi.es/uk/",
     description:
       "Developed a trading platform for the agricultural sector, building responsive web applications and custom frontend solutions to enable seamless transactions and improve platform usability.",
-    technologies: ["JavaScript", "React", "Sass", "WordPress"],
+    technologies: ["JavaScript", "HTML5", "CSS", "JQuery", "WordPress"],
   },
 ]
 
@@ -141,7 +138,8 @@ export function Experience() {
             className="mt-12"
           >
             <a
-              href="/resume.pdf"
+              href="files/Oleksandra_Boiko_Frontend_Engineer.pdf"
+              target="_blank"
               className="inline-flex items-center gap-2 text-sm text-foreground font-medium hover:text-muted-foreground transition-colors"
             >
               View Full Resume

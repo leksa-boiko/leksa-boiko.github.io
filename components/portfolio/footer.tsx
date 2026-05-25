@@ -8,7 +8,7 @@ export function Footer() {
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex items-center gap-6">
           <a
-            href="https://github.com"
+            href="https://github.com/leksa-boiko"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"
@@ -17,7 +17,7 @@ export function Footer() {
             <Github size={18} />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/oleksandra-boiko-b83b92146/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"
@@ -26,7 +26,7 @@ export function Footer() {
             <Linkedin size={18} />
           </a>
           <a
-            href="mailto:alex@example.com"
+            href="mailto:leksa.boiko@gmail.com"
             className="text-muted-foreground hover:text-foreground transition-colors"
             aria-label="Email"
           >

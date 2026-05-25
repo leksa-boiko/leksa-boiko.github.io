@@ -6,40 +6,22 @@ import { ArrowUpRight, Github } from "lucide-react"
 
 const projects = [
   {
-    title: "Design System",
+    title: "Design System - PIE Design",
     description:
-      "A comprehensive component library built with React, TypeScript, and Tailwind CSS. Features 50+ accessible components with full documentation and Storybook integration.",
-    technologies: ["React", "TypeScript", "Tailwind", "Storybook"],
-    liveUrl: "#",
-    githubUrl: "https://github.com",
+      "A design system is like a recipe for creating visually appealing and user-friendly products. Just as a recipe uses ingredients and instructions to help you make a delicious meal, a design system uses components, patterns and documentation to help us design amazing apps and websites.",
+    technologies: ["React.js", "Next.js", "Redux.js", "Redux Toolkit", "TypeScript", "SCSS", "Storybook", "Web Components", "Lit library", "Vite", "Turborepo", "Jest", "Playwright", "Percy", "Datadog", "REST APIs", "Lighthouse", "Performance Optimization", "WCAG", "Screen Reader Testing", "Core Web Vitals"],
+    liveUrl: "https://www.pie.design/all-about-pie/what-is-pie/",
+    githubUrl: "https://github.com/justeattakeaway/pie",
     featured: true,
   },
   {
-    title: "Performance Dashboard",
+    title: "Advisory Platform - One View",
     description:
-      "Real-time analytics dashboard for monitoring web performance metrics. Built with Next.js and featuring server-side rendering for optimal loading times.",
-    technologies: ["Next.js", "Chart.js", "PostgreSQL", "Vercel"],
-    liveUrl: "#",
-    githubUrl: "https://github.com",
+      "OneView is an all-in-one advisory and portfolio management platform developed by ViewTrade for investment managers, brokers, RIAs, and family offices. The platform provides a unified portal for managing multiple client accounts, trading equities and options, monitoring risk and compliance, and accessing real-time market insights.",
+    technologies: ["React.js", "Redux.js", "Redux Toolkit", "TypeScript", "SCSS", "Styled-components", "Atomic design", "Webpack", "Formik", "Yup", "Chart.js", "Jest", "React Testing Library", "Cypress",  "Sentry", "REST APIs", "Lighthouse", "Performance Optimization"],
+    liveUrl: "https://www.viewtrade.com/oneview-landing-page-product-sheet-download/",
+    githubUrl: "https://www.viewtrade.com/wp-content/uploads/2023/04/VWT_SalesSheet-OneView_2023-04-12.pdf",
     featured: true,
-  },
-  {
-    title: "CLI Tool",
-    description:
-      "A command-line interface for scaffolding React projects with best practices baked in. Includes ESLint, Prettier, and TypeScript configurations.",
-    technologies: ["Node.js", "TypeScript", "Commander", "Inquirer"],
-    liveUrl: null,
-    githubUrl: "https://github.com",
-    featured: false,
-  },
-  {
-    title: "Portfolio Template",
-    description:
-      "Open-source portfolio template built with Next.js and Framer Motion. Designed for developers who want a clean, professional online presence.",
-    technologies: ["Next.js", "Framer Motion", "MDX", "Tailwind"],
-    liveUrl: "#",
-    githubUrl: "https://github.com",
-    featured: false,
   },
 ]
 
@@ -126,7 +108,7 @@ export function Projects() {
             className="mt-12 text-center"
           >
             <a
-              href="https://github.com"
+              href="https://github.com/leksa-boiko"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
