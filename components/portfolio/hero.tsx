@@ -34,8 +34,7 @@ export function Hero() {
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground max-w-6xl leading-relaxed">
-              Frontend Engineer with 7+ years of experience developing web applications. Specialized in React, Next.js, and TypeScript.
-              Strong understanding of application architecture, state management, and API integration, with a focus on clean, testable, and maintainable code. Comfortable working across the full development lifecycle and collaborating closely with product, design, and backend teams.
+              Frontend Engineer with over 7 years of experience developing production-level web applications in FinTech, e-commerce, and Saas. Proven success in designing microfrontend architectures, delivering scalable design systems adopted by more than five product teams, and solving key performance issues in data-heavy trading interfaces. Experienced across the entire delivery process, from system design to monitoring in production.
             </p>
           </motion.div>
 

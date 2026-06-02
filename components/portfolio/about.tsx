@@ -5,13 +5,14 @@ import { useInView } from "framer-motion"
 import { useRef } from "react"
 
 const skills = [
-  { category: "Core", items: ["JavaScript", "TypeScript", "React.js", "Next.js", "Redux.js", "Redux Toolkit", "HTML5", "CSS3", "WebComponents"] },
-  { category: "UI & Styling", items: ["SCSS", "SASS", "LESS", "Styled-components", "TailwindCSS", "Material UI", "Ant Design", "Atomic design", "Storybook"] },
-  { category: "Testing", items: ["Jest", "React Testing Library", "Cypress", "Playwright", "Percy", "Postman", "Screen Reader Testing" ] },
-  { category: "Build & Tools", items: ["Webpack", "Parcel", "Gulp", "Vite", "Git", "GitHub", "GitLab", "CI/CD"] },
-  { category: "Monitoring & Performance", items: ["Datadog", "Lighthouse", "Core Web Vitals", "WCAG", "Performance Optimization"] },
-  { category: "AI-Driven Development", items: ["Cursor IDE", "GitHub Copilot", "ChatGPT", "Amazon Q", "Claude Code"] },
-  { category: "Languages", items: ["English (Upper-Intermediate)"] },
+  { category: "Core", items: ["JavaScript (ES6+)", "TypeScript", "React.js", "Next.js", "Redux/Toolkit", "Web Components", "Microfrontends"] },
+  { category: "Styling & UI", items: ["SCSS/SASS,", "Styled-components", "TailwindCSS", "Material-UI", "Ant Design", "Atomic design", "Storybook"] },
+  { category: "Testing", items: ["Jest", "React Testing Library", "Cypress", "Playwright", "Percy"] },
+  { category: "Build & CI", items: ["Vite", "Webpack", "Vercel",  "Git", "GitHub/GitLab", "CI/CD pipelines"] },
+  { category: "Data", items: ["REST APIs", "GraphQL", "Swagger",  "Postman"] },
+  { category: "Performance", items: ["Core Web Vitals", "WCAG", "Lighthouse", "Datadog", "Screen Reader Testing"] },
+  { category: "AI Tools", items: ["Cursor IDE", "GitHub Copilot", "ChatGPT", "Amazon Q", "Claude Code"] },
+  { category: "English", items: ["Upper-Intermediate (B2)"] },
 ]
 
 export function About() {

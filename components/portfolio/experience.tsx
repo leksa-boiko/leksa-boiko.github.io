@@ -110,9 +110,9 @@ export function Experience() {
 
 
                     
-                    <p className="text-muted-foreground text-sm leading-relaxed">
+                    <ul className="text-muted-foreground text-sm leading-relaxed">
                       {exp.description}
-                    </p>
+                    </ul>
 
                     <div className="flex flex-wrap gap-2 pt-1">
                       {exp.technologies.map((tech) => (
@@ -138,7 +138,7 @@ export function Experience() {
             className="mt-12"
           >
             <a
-              href="files/Oleksandra_Boiko_Frontend_Engineer.pdf"
+              href="files/Oleksandra_Boiko_Frontend_Engineer_Resume.pdf"
               target="_blank"
               className="inline-flex items-center gap-2 text-sm text-foreground font-medium hover:text-muted-foreground transition-colors"
             >
