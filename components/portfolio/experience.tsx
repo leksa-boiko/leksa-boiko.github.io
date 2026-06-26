@@ -11,9 +11,9 @@ const experiences = [
     company: "Highload Solutions",
     url: "#",
     description:
-        "Designed and implemented micro-frontend architecture using Web Components to enable scalable, independently deployable frontend modules." +
+        "Implemented microfrontend architecture using Web Components to enable scalable, independently deployable frontend modules." +
         "Ensured WCAG-compliant accessibility by applying semantic markup, keyboard navigation support, best practices, and inclusive interaction patterns.",
-    technologies: ["Next.js", "TypeScript", "TailwindCSS", "Biulder.io", "S3 Bucket", "Jest", "React Testing Library", "Cypress", "REST APIs", "CRUD", "Datadog", "Postman", "Swagger", "Lighthouse", "Performance Optimization", "AI-Driven Development", "Amazon Q", "GitHub Copilot", "CI/CD"],
+    technologies: ["React.js", "TypeScript", "Tailwind CSS", "AWS (S3, Lambda, CloudWatch, Secrets Manager)", "Jest", "RTL", "GraphQL", "Datadog", "Lighthouse / Web Vitals", "Performance Optimization", "AI-Driven Development", "Amazon Q", "GitHub Copilot", "CI/CD piplines"],
   },
   {
     period: "Apr 2025 — Aug 2025",
@@ -23,7 +23,7 @@ const experiences = [
     description:
         "Designed and evolved custom frontend solutions, including a scalable CMS Builder, reusable npm packages with shared tools and feature modules, and internal services for centralized localization and translation management. " +
         "Managed deployment workflows using Vercel, leveraging preview and production environments to support reliable releases, while monitoring performance and stability with Vercel Analytics.",
-    technologies: ["Next.js", "TypeScript", "TailwindCSS", "Biulder.io", "S3 Bucket", "Jest", "React Testing Library", "Cypress", "REST APIs", "CRUD", "Postman", "Swagger", "Lighthouse", "Performance Optimization", "AI-Driven Development", "Cursor IDE", "CI/CD"],
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Biulder.io", "S3 Bucket", "Jest", "React Testing Library", "Cypress", "REST APIs", "CRUD", "Postman", "Swagger", "Lighthouse", "Performance Optimization", "AI-Driven Development", "Cursor IDE", "CI/CD"],
   },
   {
     period: "May 2024 — Jan 2025",
@@ -31,7 +31,7 @@ const experiences = [
     company: "Ciklum | Just Eat Takeaway.com",
     url: "https://ciklum.com.ua/",
     description:
-      "Contributed to the development of PIE Design, an open-source, customizable UI component library designed for creating responsive and user-friendly interfaces. Explore component implementations in Storybook or review the source code in the monorepo on GitHub. Later transitioned to the 'Product Experience' team to develop a unified customer-facing frontend for Just Eat Takeaway.com, collaborating on multiple initiatives to elevate other teams' products to company standards.",
+      "Contributed to the creation and development of the PIE Web Component library, an open-source Web Component System powering web platforms across Just Eat Takeaway. In 2025, PIE won the Best Design System Adoption award at Zeroheight Design System Awards.",
     technologies: ["React.js", "Next.js", "Redux.js", "Redux Toolkit", "TypeScript", "SCSS", "Storybook", "Web Components", "Lit library", "Vite", "Turborepo", "Jest", "React Testing Library", "Playwright", "Percy", "Datadog", "REST APIs", "CRUD", "Postman", "Swagger", "Lighthouse", "Performance Optimization", "WCAG", "Screen Reader Testing", "Core Web Vitals"],
   },
   {
@@ -40,7 +40,7 @@ const experiences = [
     company: "Yalantis | ViewTrade Holding Corp.",
     url: "https://yalantis.ua/",
     description:
-      "Worked across multiple FinTech products, including electronic trading systems, digital onboarding, billing management, and client-facing platforms for international financial institutions, brokerages, and wealth management firms.",
+      "Core contributor across a suite of FinTech products: electronic trading platforms, digital onboarding, billing management, and client-facing portals for international brokerages and wealth management firms.",
     technologies: ["React.js", "Redux.js", "Redux Toolkit", "TypeScript", "SCSS", "Styled-components", "Material-UI", "Atomic design", "Webpack", "Parcel", "Formik", "Yup", "Chart.js", "Jest", "React Testing Library", "Cypress",  "Sentry", "REST APIs", "CRUD", "GraphQL", "Postman", "Swagger", "Lighthouse", "Performance Optimization"],
   },
   {
@@ -58,7 +58,7 @@ const experiences = [
     company: "Unique Technologies LLC",
     url: "https://uniquetechnologi.es/uk/",
     description:
-      "Developed a trading platform for the agricultural sector, building responsive web applications and custom frontend solutions to enable seamless transactions and improve platform usability.",
+      "Built a trading platform for the agricultural sector - responsive SPAs with custom frontend features, delivering a reliable transaction experience across devices and browsers.",
     technologies: ["JavaScript", "HTML5", "CSS", "JQuery", "WordPress"],
   },
 ]

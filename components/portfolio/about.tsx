@@ -5,13 +5,13 @@ import { useInView } from "framer-motion"
 import { useRef } from "react"
 
 const skills = [
-  { category: "Core", items: ["JavaScript (ES6+)", "TypeScript", "React.js", "Next.js", "Redux/Toolkit", "Web Components", "Microfrontends"] },
-  { category: "Styling & UI", items: ["SCSS/SASS,", "Styled-components", "TailwindCSS", "Material-UI", "Ant Design", "Atomic design", "Storybook"] },
+  { category: "Core", items: ["JavaScript (ES6+)", "TypeScript", "React.js", "Next.js", "Redux Toolkit","React Query", "Web Components", "Microfrontends"] },
+  { category: "Design systems & UI", items: ["SCSS/SASS,", "Styled-components", "Tailwind CSS", "Material-UI", "Ant Design", "Atomic design", "Storybook"] },
+  { category: "Data & APIs", items: ["REST APIs", "GraphQL", "Open API/Swagger",  "Postman", "Server State Management"] },
   { category: "Testing", items: ["Jest", "React Testing Library", "Cypress", "Playwright", "Percy"] },
-  { category: "Build & CI", items: ["Vite", "Webpack", "Vercel",  "Git", "GitHub/GitLab", "CI/CD pipelines"] },
-  { category: "Data", items: ["REST APIs", "GraphQL", "Swagger",  "Postman"] },
-  { category: "Performance", items: ["Core Web Vitals", "WCAG", "Lighthouse", "Datadog", "Screen Reader Testing"] },
-  { category: "AI Tools", items: ["Cursor IDE", "GitHub Copilot", "ChatGPT", "Amazon Q", "Claude Code"] },
+  { category: "Performance & Accessibility", items: ["Core Web Vitals", "Lighthouse", "WCAG", "Screen Reader Testing", "Datadog"] },
+  { category: "Cloud & DevOps", items: ["AWS (S3, Lambda, CloudWatch, Secrets Manager)", "Vercel",  "Docker", "CI/CD pipelines", "Vite", "Webpack", "Git", "GitHub/GitLab"] },
+  { category: "AI-Assisted Development", items: ["Cursor IDE", "GitHub Copilot", "Amazon Q", "Claude Code", "Kiro"] },
   { category: "English", items: ["Upper-Intermediate (B2)"] },
 ]
 

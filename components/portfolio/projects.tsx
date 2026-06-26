@@ -9,7 +9,7 @@ const projects = [
     title: "Design System - PIE Design",
     description:
       "A design system is like a recipe for creating visually appealing and user-friendly products. Just as a recipe uses ingredients and instructions to help you make a delicious meal, a design system uses components, patterns and documentation to help us design amazing apps and websites.",
-    technologies: ["React.js", "Next.js", "Redux.js", "Redux Toolkit", "TypeScript", "SCSS", "Storybook", "Web Components", "Lit library", "Vite", "Turborepo", "Jest", "Playwright", "Percy", "Datadog", "REST APIs", "Lighthouse", "Performance Optimization", "WCAG", "Screen Reader Testing", "Core Web Vitals"],
+    technologies: ["React.js", "TypeScript", "Web Components","Lit library", "Nunjucks", "e11ty(eleventy)", "Storybook", "Vite", "Turborepo", "SCSS", "Playwright", "Percy", "Datadog", "REST APIs", "Performance Optimization", "Lighthouse", "WCAG(AA+)", "Core Web Vitals", "Screen Reader Testing"],
     liveUrl: "https://www.pie.design/all-about-pie/what-is-pie/",
     githubUrl: "https://github.com/justeattakeaway/pie",
     featured: true,
@@ -18,7 +18,7 @@ const projects = [
     title: "Advisory Platform - One View",
     description:
       "OneView is an all-in-one advisory and portfolio management platform developed by ViewTrade for investment managers, brokers, RIAs, and family offices. The platform provides a unified portal for managing multiple client accounts, trading equities and options, monitoring risk and compliance, and accessing real-time market insights.",
-    technologies: ["React.js", "Redux.js", "Redux Toolkit", "TypeScript", "SCSS", "Styled-components", "Atomic design", "Webpack", "Formik", "Yup", "Chart.js", "Jest", "React Testing Library", "Cypress",  "Sentry", "REST APIs", "Lighthouse", "Performance Optimization"],
+    technologies: ["React.js", "Redux.js", "Redux Toolkit", "React Query", "TypeScript", "SCSS", "Styled-components", "Atomic design", "Webpack", "Formik", "Yup", "Chart.js", "Jest", "RTL", "Cypress",  "Sentry", "REST APIs", "Lighthouse", "Performance Optimization"],
     liveUrl: "https://www.viewtrade.com/oneview-landing-page-product-sheet-download/",
     githubUrl: "https://www.viewtrade.com/wp-content/uploads/2023/04/VWT_SalesSheet-OneView_2023-04-12.pdf",
     featured: true,

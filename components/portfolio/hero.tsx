@@ -34,7 +34,7 @@ export function Hero() {
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground max-w-6xl leading-relaxed">
-              Frontend Engineer with over 7 years of experience developing production-level web applications in FinTech, e-commerce, and Saas. Proven success in designing microfrontend architectures, delivering scalable design systems adopted by more than five product teams, and solving key performance issues in data-heavy trading interfaces. Experienced across the entire delivery process, from system design to monitoring in production.
+              Frontend Engineer with 7+ years building production web applications across FinTech, e-commerce, and SaaS. Proven success in designing microfrontend architectures, delivering scalable design systems adopted by 5+ product teams, and solving key performance issues in data-heavy trading interfaces. Experienced across the entire delivery process, from system design to production monitoring.
             </p>
           </motion.div>
 
